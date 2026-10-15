@@ -1,0 +1,23 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.idea/
+.DS_Store
+
+# Medical images and generated files
+images/
+uploads/
+outputs/
+
+# Large pretrained model
+model/dental_xray_seg.h5
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
+
+# Local datasets and serialized models (pending review)
+dataset_v3_*.csv
+saved_models/*.pkl
